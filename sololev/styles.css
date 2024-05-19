@@ -1,0 +1,142 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('img/solo1.gif');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    background-color: rgba(0, 255, 255, 0.2); /* Cyan color with 20% opacity */
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 242, 0.856);
+    text-align: center;
+    border: 2px solid rgb(146, 241, 241); /* Cyan color border */
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+}
+
+.form-container input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin: 15px 0;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+.form-container button {
+    background-color: #13a100;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #00e6da;
+}
+
+
+
+.em{
+    background-color: rgba(6, 224, 224, 0.726);
+    border: 2px solid rgb(146, 241, 241);
+}
+
+.h2col {
+    color: #ffffff;
+}
+
+.tdcol1 {
+ color: rgb(255, 20, 20);
+}
+
+.tdcol2 {
+    color:green;
+   }
+
+.ucol {
+    color: orangered;
+}
+
+.regcol {
+    padding: 8px;
+    color: #ff0000;
+}
+
+.registration-text {
+    color: #000000;
+}
+
+.rega {
+    color: orangered;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: rgba(0, 255, 255, 0.692);
+}
+
+.nav a:hover {
+    color: #ff0000;
+}
+
+.content {
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.692);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 255, 242, 0.856);
+}
+
+table {
+    width: 100%;
+    background-color: rgba(5, 216, 216, 0.87);
+    border-collapse: collapse;
+    margin-top: 20px;
+
+}
+
+table, th, td {
+    border: 1px solid #000000;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+a.delete {
+    color: red;
+    text-decoration: none;
+}
+
+a.delete:hover {
+    text-decoration: underline;
+}
+
